@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	box-sizing:border-box;
+	font-family: sans-serif;
+	list-style: none;
+	background-color: black;
+	color: white;
+}
+
+.one{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+	position: sticky;
+	height: 90px;
+	top: 0;
+}
+
+.one .one1 h4{
+	color: darkgoldenrod;
+	font-size: 20px;
+}
+.one1 h2{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 15px;
+}
+.two{
+	display: flex;
+	justify-content: center;
+	margin: 10%;
+}
+.two h1{
+	font-family: times new roman;
+	font-weight: bolder;
+	color: darkgoldenrod;
+}
+
+.three{
+	display: flex;
+	justify-content: center;
+	margin: 10%;
+}
+.three h4{
+	font-family: monospace;
+	font-weight: bolder;
+}
+
+.four{
+	margin: 10%;
+}
+
+.five ul{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 20px;
+	border-style: inset;
+	border-radius: 20px;
+	border-color: darkgoldenrod;
+	background-color: ;
+}
+.five li{
+	font-family: monospace;
+}
+
+.six{
+	align-items: center;
+	margin-top: 20%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 5px;
+	/*margin-left: 300px;*/
+}
+
+ button a{
+	background-color: darkgoldenrod;
+	color: black;
+	font-family: monospace;
+	border-radius:15px;
+	text-align: center;
+
+}
+
+button{
+	border-radius: 20px;
+}
+
+ h6{
+	margin: 20px;
+	color: darkgoldenrod;
+	font-family: sans-serif;
+	position: absolute;
+}
+
+footer{
+	margin-top: 100%;
+}
+
+/* Default styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for tablets (min-width: 600px) */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 60px;
+  }
+}
+
+/* Styles for desktops (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Styles for small screens (max-width: 599px) */
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+  .one{
+  	display: block;
+  }
+  .one1,.one2,.one3{
+  	padding-bottom: 1em;
+  }
+}
+
